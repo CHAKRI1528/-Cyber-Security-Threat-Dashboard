@@ -33,13 +33,13 @@ MongoDB Atlas is a free cloud database service. Follow these steps to get your c
 2. Click "Connect" button
 3. Click "Drivers" 
 4. Select Node.js and copy the connection string
-5. It will look like: `mongodb+srv://cyber_user:password@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority`
+5. It will look like: mongodb+srv://<USERNAME>:<PASSWORD>@cluster.mongodb.net/database
 
 ## Step 6: Update .env File
 Edit `backend/.env` and update MONGODB_URI:
 
 ```env
-MONGODB_URI=mongodb+srv://cyber_user:your_password@cluster0.xxxxx.mongodb.net/cyber-threat-monitoring?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_connection_string
 ```
 
 Replace:
